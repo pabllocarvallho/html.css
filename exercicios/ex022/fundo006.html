@@ -8,11 +8,19 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: no-repeat;
             background-position: center top;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* SHORTHAND - BACKGROUND
+            \background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip]; */
+
+            /* A barra (/) é usada para separar as propriedades de posicionamento (position) e tamanho (size) da imagem de fundo na ordem shorthand da propriedade background no CSS. Isso ajuda a evitar confusão entre as propriedades de tamanho e posicionamento da imagem de fundo. */
+
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center / cover;
         }
 
         main {
