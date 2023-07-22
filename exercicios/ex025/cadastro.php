@@ -1,0 +1,1 @@
+Aprenda php para que o site funcione.
